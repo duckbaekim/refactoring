@@ -1,5 +1,24 @@
 {
+  "type": "module",
   "dependencies": {
     "node": "^17.7.2"
-  }
+  },
+  "name": "refactoring",
+  "description": "refactoring",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duckbaekim/refactoring.git"
+  },
+  "author": "inqu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duckbaekim/refactoring/issues"
+  },
+  "homepage": "https://github.com/duckbaekim/refactoring#readme"
 }

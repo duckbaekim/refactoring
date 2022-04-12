@@ -1,4 +1,4 @@
-function statement(invoice, plays) {
+export function statement(invoice, plays) {
   let total_amount = 0;
   let volume_credits = 0;
   let result = `청구 내역 (고객명: ${invoice.customer})\n`;
@@ -47,3 +47,7 @@ function statement(invoice, plays) {
   result += `적립 포인트 : ${volume_credits}점\n`;
   return result;
 }
+
+// 리펙터링 지점
+// 1. html 출력하는 기능 분리
+// 2. 연극 장르와 공연료 정책에 따라 statement함수를 변경해야 한다.
