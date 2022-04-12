@@ -1,3 +1,7 @@
 import { statement } from "./src/main.js";
+import invoices from "./src/invoices.js";
+import plays from "./src/plays.js";
 
-console.log("statement:", statement);
+// const result = statement(invoices, plays);
+console.log("invoices:", invoices);
+console.log("plays:", plays);
