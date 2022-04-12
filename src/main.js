@@ -11,6 +11,7 @@ export function statement(invoice, plays) {
 
   for (let perf of invoice.performances) {
     const play = plays[perf.playID];
+    console.log(play, "playplay", perf.playID);
     let this_amount = 0;
 
     switch (play.type) {

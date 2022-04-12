@@ -7,7 +7,7 @@ export default [
         audience: 55,
       },
       { playID: "hamlet", audience: 55 },
-      { playID: "ohello", audience: 40 },
+      { playID: "othello", audience: 40 },
     ],
   },
 ];
